@@ -1,0 +1,11 @@
+<?php
+	session_start();
+?>
+<meta charset="UTF-8">
+<?php
+	session_destroy();
+?>
+<script>
+	alert("로그아웃 되었습니다.");
+	location.href = "index.php";
+</script>

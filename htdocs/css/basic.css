@@ -1,0 +1,60 @@
+body{
+	background-image: url("../images/bg.png");
+}
+
+.panel{
+	background-color: rgb(255, 245, 215);
+	opacity: 0.9;
+	border: 5px;
+    border-radius: 25px;
+	margin: auto;
+	width: 800px;
+	padding: 15px;
+}
+
+.cell{
+	background-color: white;
+	opacity: 0.9;
+	border: 5px;
+    border-radius: 15px;
+    margin: 20px;
+	padding: 20px;
+}
+
+h2{
+	color: rgb(136, 0, 21);
+}
+
+a.btn{
+	color: rgb(136, 0, 21);
+	background-color: rgb(254, 176, 90);
+	border: 5px;
+    border-style: double;
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.tb_normal{
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0);
+}
+
+th{
+	background-color: rgb(255, 127, 39);
+	border: 3px;
+    border-radius: 5px;
+	padding: 5px;
+}
+
+td{
+	background-color: rgb(255, 201, 14);
+	border: 3px;
+    border-radius: 5px;
+	padding: 5px;
+}
+
+td.even{
+	background-color: rgb(255, 227, 0);
+}
